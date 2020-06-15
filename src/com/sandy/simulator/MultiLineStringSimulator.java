@@ -39,6 +39,7 @@ public class MultiLineStringSimulator extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new MultiLineStringSimulator();
+           // frame.setVisible(true);
         });
     }
 }
